@@ -16,8 +16,7 @@
 {
     NSURL *URL = [NSURL URLWithString:@"http://www.submarino.com.br/iphone_lojas/257388"];
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
-    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc]
-                                         initWithRequest:request];
+    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
     operation.responseSerializer = [AFXMLDictionaryResponseSerializer serializer];
     [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSLog(@"%@", responseObject);
