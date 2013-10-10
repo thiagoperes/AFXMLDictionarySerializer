@@ -20,7 +20,7 @@
 		950382C518063DDF003FBE11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 950382C318063DDF003FBE11 /* InfoPlist.strings */; };
 		950382C718063DDF003FBE11 /* AFXMLDictionarySerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 950382C618063DDF003FBE11 /* AFXMLDictionarySerializerTests.m */; };
 		950382D318063E7B003FBE11 /* AFXMLDictionaryResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 950382D218063E7B003FBE11 /* AFXMLDictionaryResponseSerializer.m */; };
-		950382D61806417A003FBE11 /* AFXMLDictionaryRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 950382D51806417A003FBE11 /* AFXMLDictionaryRequestSerializer.m */; };
+		950382D9180645ED003FBE11 /* AFXMLDictionaryRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 950382D8180645ED003FBE11 /* AFXMLDictionaryRequestSerializer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,8 @@
 		950382C618063DDF003FBE11 /* AFXMLDictionarySerializerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFXMLDictionarySerializerTests.m; sourceTree = "<group>"; };
 		950382D118063E7B003FBE11 /* AFXMLDictionaryResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFXMLDictionaryResponseSerializer.h; path = Classes/AFXMLDictionaryResponseSerializer.h; sourceTree = "<group>"; };
 		950382D218063E7B003FBE11 /* AFXMLDictionaryResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFXMLDictionaryResponseSerializer.m; path = Classes/AFXMLDictionaryResponseSerializer.m; sourceTree = "<group>"; };
-		950382D41806417A003FBE11 /* AFXMLDictionaryRequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLDictionaryRequestSerializer.h; sourceTree = "<group>"; };
-		950382D51806417A003FBE11 /* AFXMLDictionaryRequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLDictionaryRequestSerializer.m; sourceTree = "<group>"; };
+		950382D7180645ED003FBE11 /* AFXMLDictionaryRequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFXMLDictionaryRequestSerializer.h; path = Classes/AFXMLDictionaryRequestSerializer.h; sourceTree = "<group>"; };
+		950382D8180645ED003FBE11 /* AFXMLDictionaryRequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFXMLDictionaryRequestSerializer.m; path = Classes/AFXMLDictionaryRequestSerializer.m; sourceTree = "<group>"; };
 		B615345ED2CF4A2BAE0479C0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5000D0F11544FB5BCDD77B8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,10 +157,10 @@
 		950382D018063E5B003FBE11 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				950382D7180645ED003FBE11 /* AFXMLDictionaryRequestSerializer.h */,
+				950382D8180645ED003FBE11 /* AFXMLDictionaryRequestSerializer.m */,
 				950382D118063E7B003FBE11 /* AFXMLDictionaryResponseSerializer.h */,
 				950382D218063E7B003FBE11 /* AFXMLDictionaryResponseSerializer.m */,
-				950382D41806417A003FBE11 /* AFXMLDictionaryRequestSerializer.h */,
-				950382D51806417A003FBE11 /* AFXMLDictionaryRequestSerializer.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 			files = (
 				950382B218063DDF003FBE11 /* AppDelegate.m in Sources */,
 				950382AE18063DDF003FBE11 /* main.m in Sources */,
-				950382D61806417A003FBE11 /* AFXMLDictionaryRequestSerializer.m in Sources */,
+				950382D9180645ED003FBE11 /* AFXMLDictionaryRequestSerializer.m in Sources */,
 				950382D318063E7B003FBE11 /* AFXMLDictionaryResponseSerializer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
