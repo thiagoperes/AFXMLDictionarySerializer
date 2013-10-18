@@ -13,15 +13,15 @@ pod 'AKLocationManager'
 ## Sample Usage
 
 ```objective-c
-	 NSURL *URL = [NSURL URLWithString:@"http://maps.googleapis.com/maps/api/directions/xml?origin=Toronto&destination=Montreal&sensor=false"];
-	 NSURLRequest *request = [NSURLRequest requestWithURL:URL];
-	 AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
-	 operation.responseSerializer = [AFXMLDictionaryResponseSerializer serializer];
-	 [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
-	     NSLog(@"%@", responseObject);
-	 } failure:nil];
-	 
-	 [operation start];
+NSURL *URL = [NSURL URLWithString:@"http://maps.googleapis.com/maps/api/directions/xml?origin=Toronto&destination=Montreal&sensor=false"];
+NSURLRequest *request = [NSURLRequest requestWithURL:URL];
+AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
+operation.responseSerializer = [AFXMLDictionaryResponseSerializer serializer];
+[operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+	NSLog(@"%@", responseObject);
+} failure:nil];
+
+[operation start];
 ```
 ## License
 
