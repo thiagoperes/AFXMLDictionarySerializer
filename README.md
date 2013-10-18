@@ -27,7 +27,7 @@ operation.responseSerializer = [AFXMLDictionaryResponseSerializer serializer];
 
 AKLocationManager is licensed under the MIT License:
 
-  Copyright (c) 2012 Thiago Peres (http://www.appkraft.net/)
+  Copyright (c) 2012 Thiago Peres
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
