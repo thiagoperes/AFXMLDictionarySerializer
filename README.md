@@ -7,7 +7,7 @@ Support for converting XML to NSDictionary in AFNetworking 2.0.
 ### Via Cocoapods:
 
 ```bash
-pod 'AKLocationManager'
+pod 'AFXMLDictionarySerializer'
 ```
 
 ## Sample Usage
@@ -25,7 +25,7 @@ operation.responseSerializer = [AFXMLDictionaryResponseSerializer serializer];
 ```
 ## License
 
-AKLocationManager is licensed under the MIT License:
+AFXMLDictionarySerializer is licensed under the MIT License:
 
   Copyright (c) 2012 Thiago Peres
 
